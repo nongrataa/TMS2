@@ -1,9 +1,4 @@
-a = 4.5
-b = 2
+name = str(input("Введите имя "))
+age = int(input("Введите возраст "))
 
-print("a / b = ", a/b)
-print("b / a = ", b/a)
-
-a = int(input("Введите А"))
-
-print("b * a = ", b*a)
+print("Ваше имя: ", name, ", возраст - ", age)

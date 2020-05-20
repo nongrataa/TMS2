@@ -1,4 +1,11 @@
-name = str(input("Введите имя "))
-age = int(input("Введите возраст "))
+import math
 
-print("Ваше имя: ", name, ", возраст - ", age)
+a = float(input(" введите длинну стороны а "))
+b = float(input(" введите длинну стороны b "))
+c = float(input(" введите длинну стороны c "))
+
+p = (a + b + c) / 2
+
+print("Площадь треугольника = ", math.sqrt(p * (p - a) * (p - b) * (p - c)))
+
+

@@ -3,14 +3,12 @@
 #a = str(input("input a -  ")).split('.')
 
 b = float(input("Input b - "))
+
 dollar = int(b // 1)
 cent = int(round((b-dollar)*100, 2))
-print('dollar = ', dollar)
-print('cent = ', cent)
+
 r = ''
 k = ''
-
-
 
 if cent >= 11 and cent <= 19:
     k = 'копеек'  # print('копеек')

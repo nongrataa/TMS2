@@ -17,14 +17,14 @@ puplist = [
         'Firstname': 'Aliaksandr',
         'Group': 41,
         'phyisics': 7,
-        'informatics': 6,
+        'informatics': 7,
         'history': 9,
     },
     {
         'Firstname': 'Polina',
         'Group': 31,
         'phyisics': 5,
-        'informatics': 10,
+        'informatics': 8,
         'history': 7,
     },
     {

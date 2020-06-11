@@ -25,5 +25,5 @@ def change_register(s):
     return
 
 
-string = 'ViP maxIM UNIq NuMbEr fsAJ jfeN HJdvJ fg'
+string = 'ViP maxIM UNIq NuMbEr CaNGe pRoCEsS PyCHarM fgfF'
 change_register(string)

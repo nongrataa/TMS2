@@ -1,6 +1,9 @@
 """
 Сохранить созданиый словарь в файл
+Json
 """
+import json
+
 def dict_data(data, data2, data3):
     s = []
     s.extend(data)

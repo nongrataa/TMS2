@@ -24,7 +24,7 @@ def ll(func):
 @ll
 @calculate
 def result():
-    data = [random.randrange(0, 2 ** 100) for x in range(0, 2 ** 10)]
+    data = [random.randrange(0, 2 ** 1000) for x in range(0, 2 ** 25)]
     sorted(data)
     print("Hola")
 

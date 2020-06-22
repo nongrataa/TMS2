@@ -63,8 +63,8 @@ print(f'Имя - {cat.name}, возраст - {cat.age}, хозяин - {cat.mas
 cat.birthday()
 print(f'Имя - {cat.name}, возраст - {cat.age}, хозяин - {cat.master}')
 
-print(f'Имя - {parrot.name}, возраст - {parrot.age}, хозяин - {parrot.master}, рост - {parrot.height}')
+print(f'Имя - {parrot.name}, возраст - {parrot.age}, хозяин - {parrot.master}, рост - {parrot.height}, вес - {parrot.weight}')
 parrot.birthday()
-print(f'Имя - {parrot.name}, возраст - {parrot.age}, хозяин - {parrot.master}, рост - {parrot.height}')
+print(f'Имя - {parrot.name}, возраст - {parrot.age}, хозяин - {parrot.master}, рост - {parrot.height}, вес - {parrot.weight}')
 
 parrot.fly()

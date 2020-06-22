@@ -4,6 +4,7 @@
 Изменить метод fly класса Parrot. Если вес больше 0.1 выводить сообщение This parrot cannot fly.
 """
 
+
 class Pet:
     def __init__(self, name, age, master, weight, height):
         self.weight = weight
@@ -12,10 +13,10 @@ class Pet:
         self.age = age
         self.master = master
 
-    def change_weight(self, weight = 0.2):
+    def change_weight(self, weight=0.2):
         self.weight += weight
 
-    def change_height(self, height = 0.2):
+    def change_height(self, height=0.2):
         self.height += height
 
     def run(self):
@@ -25,20 +26,23 @@ class Pet:
         pass
 
     def birthday(self):
-        self.age +=1
+        self.age += 1
 
     def sleep(self):
         pass
+
 
 class Dog(Pet):
 
     def bark(self):
         pass
 
+
 class Cat(Pet):
 
     def meow(self):
         pass
+
 
 class Parrot(Pet):
 
@@ -47,10 +51,9 @@ class Parrot(Pet):
             print('This parrot cannot fly')
 
 
-
-dog = Dog('Тузик',2,'Petya',50,30)
-cat = Cat('Гузик',1,'Sasha',10,10)
-parrot = Parrot('Бутусик',2,'Polina',0.2,5)
+dog = Dog('Тузик', 2, 'Petya', 50, 30)
+cat = Cat('Гузик', 1, 'Sasha', 10, 10)
+parrot = Parrot('Бутусик', 2, 'Polina', 0.2, 5)
 
 print(f'Имя - {dog.name}, возраст - {dog.age}, хозяин - {dog.master}')
 dog.birthday()

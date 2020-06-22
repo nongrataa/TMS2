@@ -49,6 +49,8 @@ class Parrot(Pet):
     def fly(self):
         if self.weight > 0.1:
             print('This parrot cannot fly')
+        else:
+            print('Fly')
 
 
 dog = Dog('Тузик', 2, 'Petya', 50, 30)

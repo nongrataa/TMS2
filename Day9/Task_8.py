@@ -1,6 +1,7 @@
 """Сделать все атрибуты класса Dog приватными. Сделать для каждого атрибута getter и setter используя декораторы.
 Все change методы удалить"""
 
+
 class Dog():
     def __init__(self, name, age, height):
         self.__name = name
@@ -21,13 +22,16 @@ class Dog():
 
     @name.setter
     def name(self, name):
-        self.__name = name
+        self.name = name
 
     @age.setter
     def age(self, age):
-        self.__age = age
+        self.age = age
 
     @height.setter
     def height(self, height):
-        self.__height = height
+        self.height = height
 
+
+dog = Dog('Guzik', 12, 30)
+print(a.name)

@@ -1,0 +1,3 @@
+name1, age1, weight1, height1
+Bob, age2, weight2, height2
+name3, age3, weight3, height3

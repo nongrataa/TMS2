@@ -20,4 +20,4 @@ parrot = Parrot()
 parrot.change_weight()
 
 a = A()
-print(a.change_weight(12))
+print(a.change_weight())

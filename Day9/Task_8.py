@@ -2,22 +2,22 @@
 Все change методы удалить"""
 
 
-class Dog():
+class Dog:
     def __init__(self, name, age, height):
         self.__name = name
         self.__age = age
         self.__height = height
 
     @property
-    def get_name(self):
+    def name(self):
         return self.__name
 
     @property
-    def get_age(self):
+    def age(self):
         return self.__age
 
     @property
-    def get_height(self):
+    def height(self):
         return self.__height
 
     @name.setter
@@ -34,4 +34,4 @@ class Dog():
 
 
 dog = Dog('Guzik', 12, 30)
-print(a.name)
+print(dog.name)

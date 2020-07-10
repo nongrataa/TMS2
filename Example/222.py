@@ -7,5 +7,6 @@ string_list=string_list[::-1]
 print(string_list)
 new_string=' '.join(string_list)
 print(f"! {new_string} !")
+print()
 
 #print(f"! {' '.join('Hello World'.split(' '))} !")
